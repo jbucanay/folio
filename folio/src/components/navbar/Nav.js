@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import {Link} from 'react-router-dom'
-
+import logo from './logo.svg'
 
 export default function Nav() {
   return (
@@ -20,7 +20,7 @@ export default function Nav() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-
+        <img src={logo} width={50}/>
           </IconButton>
          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/'}> Home</Link>

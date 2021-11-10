@@ -8,11 +8,11 @@ export default function Home(){
                <h1>Hi, I'm gilbert</h1>
            </header>
            <article>
-               <h2>Software Developer. Content Manager</h2>
+               <h2>Software Developer. Content Creator</h2>
                <p>Multidisciplinary designer who hacks at, makes and occasionally breaks things.
 Product Design Director on the team behind <a href={"https://www.utah.edu/"} target={"_blank"}> U of U. </a>
 Less moody in real life. ✌️
-<Link to={'/about'}>Learn more</Link>ink   </p>
+<Link to={'/about'}>Learn more</Link>   </p>
            </article>
        </section>
     )

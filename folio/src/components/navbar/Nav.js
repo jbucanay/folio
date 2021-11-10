@@ -23,7 +23,7 @@ export default function Nav() {
         <img src={logo} width={50}/>
           </IconButton>
          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to={'/'}> Home</Link>
+            <Link to={'/'} className={'navCont'}> Home</Link>
           </Typography>
              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/about'}> About</Link>

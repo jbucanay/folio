@@ -1,18 +1,19 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import './home.css'
 
 export default function Home(){
     return (
-       <section>
+       <section id='homeCont'>
            <header>
-               <h1>Hi, I'm gilbert</h1>
+               <h1 className={'hi'}>Hi, I'm Gilbert</h1>
            </header>
            <article>
-               <h2>Software Developer. Content Creator</h2>
-               <p>Multidisciplinary designer who hacks at, makes and occasionally breaks things.
-Product Design Director on the team behind <a href={"https://www.utah.edu/"} target={"_blank"}> U of U. </a>
-Less moody in real life. ✌️
-<Link to={'/about'}>Learn more</Link>   </p>
+               <h2 className={'title'}>Software Developer. Content Creator</h2>
+               <p>Multidisciplinary designer who hacks at, makes and occasionally breaks things.</p>
+<p>Product Design Director on the team behind <a href={"https://www.utah.edu/"} target={"_blank"}> U of U. </a></p>
+           <p>Less moody in real life. ✌️</p>
+<p><Link to={'/about'}>Learn more</Link>   </p>
            </article>
        </section>
     )

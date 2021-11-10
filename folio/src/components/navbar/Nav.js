@@ -7,11 +7,12 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import {Link} from 'react-router-dom'
 import logo from './logo.svg'
+import './nav.css'
 
 export default function Nav() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 1 }} >
+      <AppBar position="static" className='test'>
         <Toolbar>
           <IconButton
             size="large"
@@ -23,7 +24,7 @@ export default function Nav() {
         <img src={logo} width={50}/>
           </IconButton>
          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to={'/'} className={'navCont'}> Home</Link>
+            <Link to={'/'} > Home</Link>
           </Typography>
              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/about'}> About</Link>

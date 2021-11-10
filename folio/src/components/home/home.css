@@ -1,0 +1,22 @@
+#homeCont {
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.hi {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+    margin-bottom: 10px;
+}

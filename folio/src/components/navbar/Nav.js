@@ -12,7 +12,7 @@ import './nav.css'
 export default function Nav() {
   return (
     <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" className='test'>
+      <AppBar position="static" className='appbar' style={{background: '#000000'}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -21,7 +21,7 @@ export default function Nav() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-        <img src={logo} width={50}/>
+       <Link to={'/'}> <img src={logo} width={50} /></Link>
           </IconButton>
          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/'} > Home</Link>

@@ -11,9 +11,9 @@ export default function Home(){
            <article>
                <h2 className={'title'}>Software Developer. Content Creator</h2>
                <p>Multidisciplinary designer who hacks at, makes and occasionally breaks things.</p>
-<p>Product Design Director on the team behind <a href={"https://www.utah.edu/"} target={"_blank"}> U of U. </a></p>
+<p>Product Design Director on the team behind <a href={"https://www.utah.edu/"} target={"_blank"} className='more'> U of U</a>.</p>
            <p>Less moody in real life. ✌️</p>
-<p><Link to={'/about'}>Learn more</Link>   </p>
+<p ><Link to={'/about'} className={'more'}>Learn more</Link>   </p>
            </article>
        </section>
     )

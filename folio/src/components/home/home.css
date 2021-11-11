@@ -20,3 +20,16 @@
     text-transform: none;
     margin-bottom: 10px;
 }
+
+p {
+    opacity: 1;
+    color: rgba(236, 236, 243, 0.83);
+    letter-spacing: .01em;
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 500;
+}
+
+.more {
+    color: #f0860c;
+}

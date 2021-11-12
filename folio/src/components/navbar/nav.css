@@ -1,3 +1,23 @@
+.navLink {
+    color: white;
+}
+
+.active {
+    color: #f0860c;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+
+
 .appbar {
-    padding-bottom: .3px !important;
+    padding: 15px 50px;
+}
+
+#loner {
+   margin-left: 60%;
 }

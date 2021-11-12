@@ -1,0 +1,22 @@
+.talk {
+    margin-top: 1em;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+}
+
+.email {
+    color: #f0860c;
+}
+
+.contact {
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+

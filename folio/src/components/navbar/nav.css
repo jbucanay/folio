@@ -1,5 +1,6 @@
 .navLink {
     color: white;
+    font-weight: 500;
 }
 
 .active {
@@ -15,9 +16,12 @@
 
 
 .appbar {
-    padding: 15px 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 #loner {
    margin-left: 60%;
 }
+

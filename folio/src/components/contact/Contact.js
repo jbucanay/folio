@@ -14,7 +14,7 @@ export default function Contact() {
                 <section className={'form'}>
                 <label className={'label'}>
                 Name:
-                <input type="text" name="name" placeholder={'Enter your name'}/>
+                <input type="text" name="name" placeholder={'Enter your name'} className={'infield'}/>
                 </label>
                 <label className={'label'}>
                     Email Address:
@@ -22,9 +22,9 @@ export default function Contact() {
                 </label>
                 <label className={'label'}>
                     Message:
-                    <textarea placeholder={'Enter your message'}/>
+                    <textarea placeholder={'Enter your message'} className={'infield'} id={'textarea'}/>
                 </label>
-                <input type='submit' value={'Submit'}/>
+                <input type='submit' value={'Submit'} className='submit'/>
 </section>
             </form>
 

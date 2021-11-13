@@ -1,39 +1,33 @@
 import React from 'react'
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
-import {Button} from "@mui/material";
 import './contact.css'
+
 
 export default function Contact() {
 
         return (
 
-    //         <Box
-    //   sx={{
-    //     width: 600,
-    //     maxWidth: "100%"
-    //   }}
-    // >
-    //             <header>
-    //             <h1 className='talk'>Let's talk.</h1>
-    //         </header>
-    //             <p className='contact'>Get in touch via the form below, or by emailing <a href={"mailto: test@test.com"} target={'_blank'} className='email'>test@test.com</a>.</p>
-    //             <TextField fullWidth label="Your name" id="name" variant='filled'/>
-    //             <TextField fullWidth label="Email address" id="email" />
-    //            <TextField
-    //   variant="outlined"
-    //   id="outlined-multiline-flexible"
-    //   label="Multiline"
-    //   multiline
-    //   fullWidth
-    //   maxRows={5}
-    //   />
-    //             <Button>Submit</Button>
-    // </Box>
 
-            <form>
-                <input type="text" className="datepicker">
-            </form>
+
+                <div className="row">
+                        <h1 className='talk'>Let's talk.</h1>
+
+                <p className='contact'>Get in touch via the form below, or by emailing <a href={"mailto: test@test.com"} target={'_blank'} className='email'>test@test.com</a>.</p>
+                    <form className="col s12">
+                        <div className="row">
+                            <div className="input-field col s6">
+                                <input placeholder="Enter your name" id="first_name" type="text" className="validate" />
+                                    <label htmlFor="first_name">Name: </label>
+                            </div>
+                            <div className="input-field col s6">
+                                <input id="last_name" type="text" className="validate" />
+                                    <label htmlFor="last_name">Last Name</label>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+
         )
 
 }

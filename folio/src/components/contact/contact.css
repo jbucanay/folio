@@ -76,3 +76,11 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    -webkit-animation-direction: normal;
+
+}

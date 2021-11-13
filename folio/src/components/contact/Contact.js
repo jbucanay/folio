@@ -13,17 +13,18 @@ export default function Contact() {
            </header>
                 <section className={'form'}>
                 <label className={'label'}>
-                Name:
+                Name: </label>
                 <input type="text" name="name" placeholder={'Enter your name'} className={'infield'}/>
-                </label>
+
                 <label className={'label'}>
                     Email Address:
+                     </label>
                     <input type={'email'} name={'email'} placeholder={'Enter your email address'} className={'infield'}/>
-                </label>
+
                 <label className={'label'}>
-                    Message:
+                    Message: </label>
                     <textarea placeholder={'Enter your message'} className={'infield'} id={'textarea'}/>
-                </label>
+
                 <input type='submit' value={'Submit'} className='submit'/>
 </section>
             </form>

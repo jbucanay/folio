@@ -5,10 +5,13 @@ import './contact.css'
 export default function Contact() {
 
         return (
-        <form>
-                <lable for='name'>Name: </lable>
-                <input type='text' id='name' name={'name'} placeholder='Enter your name' />
-        </form>
+
+            <form>
+              <header>
+            <h1 className='talk'>Let's talk.</h1>
+                      <p className='contact'>Get in touch via the form below, or by emailing <a href={"mailto: test@test.com"} target={'_blank'} className='email'>test@test.com</a>.</p>
+           </header>
+            </form>
 
         )
 

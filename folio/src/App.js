@@ -7,7 +7,7 @@ import Blog from './components/blog/Blog'
 import Contact from "./components/contact/Contact";
 import Home from './components/home/Home'
 import Nav from "./components/navbar/Nav";
-import gilbert from './gilbert.png'
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
     <Route path="/blog" element={<Blog />} />
     <Route path="/contact" element={<Contact />} />
   </Routes>
+  <Footer />
 </BrowserRouter>
   );
 }

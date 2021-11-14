@@ -21,10 +21,14 @@ export default function Home(){
                     <p>Less moody in real life. ✌️</p>
                     <p><Link to={'/about'} className={'more'}>Learn more</Link></p>
                     <section className={'iconCont'}>
-                    <a target='_blank' href='facebook.com'><Facebook fontSize='large' style={{ color: 'blue'}} className='icon'/></a>
-                    <Instagram fontSize='large' style={{ color: 'blue'}} className='icon'/>
-                    <Twitter fontSize='large' style={{ color: 'blue'}} className='icon'/>
-                    <LinkedIn fontSize='large' style={{ color: 'blue'}} className='icon'/>
+                        <a href='https://www.linkedin.com/in/gilbertbaracka/' target='_blank'><LinkedIn fontSize='large' style={{color: 'blue'}} className='icon'/></a>
+                        <a target='_blank' href='https://www.facebook.com/jiriberi.bucanayandi/'><Facebook
+                            fontSize='large' style={{color: 'blue'}} className='icon'/></a>
+                        <a href='https://www.instagram.com/ggibbzzz/' target='_blank'> <Instagram fontSize='large'
+                                                                                                  style={{color: 'blue'}}
+                                                                                                  className='icon'/>
+                        </a>
+                        <a href='https://twitter.com/B_gibbzz' target='_blank'><Twitter fontSize='large' style={{color: 'blue'}} className='icon'/></a>
                     </section>
 
                 </article>

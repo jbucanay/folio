@@ -2,6 +2,7 @@
     width: 30%;
     margin-left: 2%;
     height: 100%;
+
 }
 
 .hi {
@@ -45,3 +46,14 @@ p {
     height: 40em;
 }
 
+.iconCont {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity: .7;
+}

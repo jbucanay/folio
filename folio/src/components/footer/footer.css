@@ -1,3 +1,25 @@
 .footer {
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 2em;
+
 }
+
+.copyright {
+    margin-bottom: 0;
+    font-size: .65em;
+    color: #ddd;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+

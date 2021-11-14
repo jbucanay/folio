@@ -40,7 +40,7 @@ p {
     justify-content: start;
     align-content: end;
     margin-top: 2%;
-    /*height: 300em;*/
+     margin-left: 6%;
     flex-wrap: wrap;
 }
 

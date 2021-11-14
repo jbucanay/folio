@@ -4,51 +4,53 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import {NavLink} from 'react-router-dom'
 import './nav.css'
+import {Facebook, Instagram, LinkedIn, MergeType, Twitter} from "@material-ui/icons";
 
 export default function Nav() {
-  return (
-    <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" className='appbar' style={{background: '#000000'}}>
+    return (
+        <Box sx={{flexGrow: 1}}>
 
-         <Typography variant="h7" component="div" sx={{ flexGrow: 1 }} className='flex'>
+            <AppBar position="static" className='appbar' style={{background: '#000000'}}>
+                <Typography variant="h7" component="div" sx={{flexGrow: 1}} className='flex'>
+                    <p>Gilbert Baracka</p>
+                    <NavLink
+                        to="/"
+                        className={'navLink'}
+                    >
+                        Home
+                    </NavLink>
+                    <NavLink
+                        to="/blog"
+                        className={'navLink'}
+                    >
+                        Blog
+                    </NavLink>
 
-             <NavLink
-  to="/"
-  className={'navLink'}
->
-  Home
-</NavLink>
-
-                 <NavLink
-  to="/about"
-  className={'navLink'}
->
-  About
-</NavLink>
-                 <NavLink
-  to="/work"
-  className={'navLink'}
->
-  Work
-</NavLink>
-                 <NavLink
-  to="/blog"
-  className={'navLink'}
->
-  Blog
-</NavLink>
-
-            <NavLink
-  to="/contact"
-  className={'navLink'}
-  id='loner'
->
-  Contact
-</NavLink>
-</Typography>
+                    <NavLink
+                        to="/contact"
+                        className={'navLink'}
+                        id='loner'
+                    >
+                        Contact
+                    </NavLink>
+                    <section className={'iconCont'}>
+                        <a href='https://www.linkedin.com/in/gilbertbaracka/' target='_blank'><LinkedIn fontSize='large'
+                                                                                                        style={{color: 'blue'}}
+                                                                                                        className='icon'/></a>
+                        <a target='_blank' href='https://www.facebook.com/jiriberi.bucanayandi/'><Facebook
+                            fontSize='large' style={{color: 'blue'}} className='icon'/></a>
+                        <a href='https://www.instagram.com/ggibbzzz/' target='_blank'> <Instagram fontSize='large'
+                                                                                                  style={{color: 'blue'}}
+                                                                                                  className='icon'/>
+                        </a>
+                        <a href='https://twitter.com/B_gibbzz' target='_blank'><Twitter fontSize='large'
+                                                                                        style={{color: 'blue'}}
+                                                                                        className='icon'/></a>
+                    </section>
+                </Typography>
 
 
-      </AppBar>
-    </Box>
-  );
+            </AppBar>
+        </Box>
+    );
 }

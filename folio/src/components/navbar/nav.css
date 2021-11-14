@@ -9,19 +9,19 @@
 
 .flex {
     display: flex;
-    justify-content: space-between;
     flex-shrink: 0;
+    align-items: center;
+    background-color: red;
 
 }
 
 
 .appbar {
-    padding-top: 20px;
-    padding-right: 10em;
-    padding-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-#loner {
-   margin-left: 60%;
-}
+/*#loner {*/
+/*   margin-left: 60%;*/
+/*}*/
 

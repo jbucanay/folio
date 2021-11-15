@@ -6,10 +6,10 @@ export default function Contact() {
 
         return (
 
-            <form>
-              <header>
+            <form id='formCont'>
+              <header className='header'>
             <h1 className='talk'>Let's talk.</h1>
-                      <p className='contact'>Get in touch via the form below, or by emailing <a href={"mailto: test@test.com"} target={'_blank'} className='email'>test@test.com</a>.</p>
+                      <p className='contact'>Connect with me on social media, or send me a direct message.</p>
            </header>
                 <section className={'form'}>
                 <label className={'label'}>

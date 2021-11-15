@@ -1,16 +1,19 @@
 .talk {
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 10px;
     font-size: 64px;
     line-height: 1.0625;
     font-weight: 600;
     letter-spacing: -.01em;
     text-transform: none;
+
 }
 
-.email {
-    color: #f0860c;
+.header {
+    width: 48em;
 }
+
+
 
 .contact {
     margin-top: 25px;
@@ -82,5 +85,12 @@
     display: block;
     margin-bottom: 5px;
     -webkit-animation-direction: normal;
+
+}
+
+#formCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }

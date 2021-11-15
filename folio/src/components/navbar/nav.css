@@ -11,7 +11,7 @@
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    background-color: red;
+    justify-content: space-between;
 
 }
 
@@ -21,7 +21,19 @@
     padding-bottom: 4px;
 }
 
-/*#loner {*/
-/*   margin-left: 60%;*/
-/*}*/
+
+
+.linkIcon {
+    display: flex;
+    width: 30em;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#myname {
+    color: white;
+    font-family: fantasy;
+    margin-left: 2em;
+}
 

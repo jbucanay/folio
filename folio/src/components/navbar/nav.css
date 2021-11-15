@@ -35,5 +35,12 @@
     color: white;
     font-family: fantasy;
     margin-left: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
+
+#myname:hover {
+    cursor: pointer;
+}
+
 

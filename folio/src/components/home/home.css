@@ -37,11 +37,9 @@ p {
 
 .main {
     display: flex;
-    justify-content: start;
-    align-content: end;
-    margin-top: 2%;
-     margin-left: 6%;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .me {
@@ -58,4 +56,32 @@ p {
 .icon:hover {
     cursor: pointer;
     opacity: .7;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,1)), url("https://images.pexels.com/photos/1191369/pexels-photo-1191369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    min-height: 66vh;
+    padding-top: 92px;
+
+}
+
+.bio {
+    text-align: center;
+    white-space: pre-wrap;
+    transition-timing-function: ease;
+    transition-duration: 0.45s;
+    transition-delay: 0.229412s;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 1rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
 }

@@ -2,9 +2,9 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import './nav.css'
-import {Facebook, Instagram, LinkedIn, MergeType, Twitter} from "@material-ui/icons";
+import {Instagram, LinkedIn, Twitter} from "@material-ui/icons";
 
 export default function Nav() {
     return (
@@ -12,7 +12,7 @@ export default function Nav() {
 
             <AppBar position="static" className='appbar' style={{background: '#000000'}}>
                 <Typography variant="h7" component="div" sx={{flexGrow: 1}} className='flex'>
-                    <p id='myname'>Gilbert Baracka</p>
+                   <Link to={'/'}> <p id='myname'>Gilbert Baracka</p></Link>
                     <div className='linkIcon'>
                     <NavLink
                         to="/"

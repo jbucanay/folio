@@ -4,9 +4,10 @@ import './blog.css'
 export default class Blog extends React.Component {
     render() {
         return (
-            <article id={'blogCont'}>
+           <section>
                 <img alt='blog header'
-                     src='https://images.squarespace-cdn.com/content/v1/57fff29dc534a5a6fdf029dd/1477764637838-XVEGO7Y5MV11GVG02IK1/image-asset.jpeg'/>
+                     src='https://images.unsplash.com/photo-1589271755419-b813a577ad42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2109&q=80' className={'therock'}/>
+             <article id={'blogCont'}>
                 <section className='articleCard'>
                     <h1>
                         Header
@@ -37,6 +38,7 @@ export default class Blog extends React.Component {
                     <li>Last category</li>
                 </ul>
             </article>
+               </section>
         )
     }
 }

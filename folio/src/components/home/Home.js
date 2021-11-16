@@ -13,10 +13,10 @@ export default function Home(){
                    </p>
 
                 </article>
-            <img alt='Gilbert'
-                 src={'https://media-exp1.licdn.com/dms/image/C5603AQHPV2uU1cccgw/profile-displayphoto-shrink_800_800/0/1594174635747?e=1642636800&v=beta&t=ViASX9dgU-N3VYmdBlbq4TUMWkvTau5EjEzCFp8WtRY'}
-                 className='me'/>
-            <section id='latest Posts'>
+            {/*<img alt='Gilbert'*/}
+            {/*     src={'https://media-exp1.licdn.com/dms/image/C5603AQHPV2uU1cccgw/profile-displayphoto-shrink_800_800/0/1594174635747?e=1642636800&v=beta&t=ViASX9dgU-N3VYmdBlbq4TUMWkvTau5EjEzCFp8WtRY'}*/}
+            {/*     className='me'/>*/}
+            <section id='latest'>
                 <h1>
                     Where is this?
                 </h1>

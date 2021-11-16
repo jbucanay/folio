@@ -31,7 +31,7 @@ export default class Blog extends React.Component {
                             Lorem Ipsum.</p>
                         <button>READ MORE</button>
                     </section>
-                    <section>
+                    <section className='filter'>
                         <ul id='recent'>
                             <h3>Recent Posts</h3>
                             <li>First in list</li>

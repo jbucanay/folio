@@ -1,15 +1,19 @@
 #blogCont {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     color: black;
     grid-gap: 4em;
-    background-color: red;
     width: 100em;
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
     height: auto;
+    display: flex;
+    background-color: #676767;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+
+
 
 }
 
@@ -31,4 +35,17 @@
 
 .story {
     color: black;
+}
+
+.articleCard {
+    background-color: red;
+    width: 40em;
+    align-self: auto;
+}
+
+.filter {
+
+    background-color: blue;
+    align-self: flex-end;
+
 }

@@ -42,16 +42,6 @@ p {
     align-items: center;
 }
 
-.me {
-    height: 40em;
-}
-
-.iconCont {
-    display: flex;
-    justify-content: flex-end;
-
-
-}
 
 .icon:hover {
     cursor: pointer;

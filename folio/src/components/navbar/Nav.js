@@ -10,7 +10,7 @@ export default function Nav() {
     return (
         <Box sx={{flexGrow: 1}}>
 
-            <AppBar position="static" className='appbar' style={{background: '#000000'}}>
+            <AppBar position="static" className='appbar' color={'primary'} >
                 <Typography variant="h7" component="div" sx={{flexGrow: 1}} className='flex'>
                    <Link to={'/'}> <p id='myname'>Gilbert Baracka</p></Link>
                     <div className='linkIcon'>

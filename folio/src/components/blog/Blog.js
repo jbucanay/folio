@@ -1,5 +1,6 @@
 import React from 'react'
 import './blog.css'
+import axios from "axios";
 
 export default class Blog extends React.Component {
     render() {
